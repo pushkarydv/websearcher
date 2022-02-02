@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+<div align="center">
+ <h1> <img src="https://websearcher.vercel.app/favicon-32x32.png" width="22px"> Web Searcher <img src="https://websearcher.vercel.app/favicon-32x32.png" width="22px"></h1>
+ <img src="https://img.shields.io/github/package-json/v/pushkarydv/websearcher?color=g&label=Web%20Searcher&style=plastic">
+ <img src="https://img.shields.io/npm/v/npm?style=plastic">
+ <img src="https://img.shields.io/website?style=plastic&url=https%3A%2F%2Fwebsearcher.vercel.app"> 
+ <img src="https://img.shields.io/github/deployments/pushkarydv/websearcher/production?label=Production&style=plastic">
+ <img src="https://img.shields.io/github/languages/code-size/pushkarydv/websearcher?logo=github&style=plastic">
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About
 
-## Available Scripts
+<h3>All you need for a better seo</h3>
 
-In the project directory, you can run:
+- <> Generate mera tags in few steps
+- ⚡ Rank top in search
+- 🧾 Auto generated site cards
 
-### `npm start`
+### Website is Live : [websearcher.vercel.app](https://websearcher.vercel.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Screensorts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   <img src="https://raw.githubusercontent.com/pushkarydv/images/main/ws-page1.png">
+   <img src="https://raw.githubusercontent.com/pushkarydv/images/main/ws-page2.png" >
 
-### `npm test`
+# PageSpeed Insights
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://raw.githubusercontent.com/pushkarydv/images/main/ws-insights.png">
 
-### `npm run build`
+# Tech Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![tailwindcss](https://img.shields.io/badge/tailwindcss-%23563D7C.svg?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Contribute
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**If you are Using NPM then:**
 
-### `npm run eject`
+- **Step 1:** Fork and Download the Repository
+- **Step 2:** Open it in editor like VSCode
+- **Step 3:** Open Terminal inside it and run ` npm install` to install required dependencies (you can apply '--force' after command and then run it , incase you face any error)
+- **Step 4:** Run `npm start` to launch the website on 'localhost:3000' and check if it is working without any error.
+- **Step 5:** Do your Changes and make sure that you don't get any error or warning.
+- **Step 6:** Push on github and Create a Pull Request
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Stuck? Search your issue/error on Google**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In Case you are not from Coding Background but still want to Contribute then You can add your favourite tool/app by filling form in contribution section of our [website](https://websearcher.vercel.app)
