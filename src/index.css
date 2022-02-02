@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  .ws-input {
+    @apply mt-1 block w-full px-3 py-2 bg-inherit rounded-lg border border-teal-600 focus:border-teal-400 focus:border-2 focus:bg-neutral-900 outline-none text-lg font-normal;
+  }
+}

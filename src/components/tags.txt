@@ -6,7 +6,7 @@
 <meta name="author" content="Pushkar Yadav" />
 <meta name="theme-color" content="#242b2e" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="website" />   
 <meta property="og:url" content="https://websearcher.vercel.app/" />
 <meta property="og:title" content="webSearcher" />
 <meta property="og:description" content="Generate meta tags in some clicks and Rank top in search engines.You can generate Open graph, twitter and basic meta tags just in one click and a lort of adjustments in them." />
