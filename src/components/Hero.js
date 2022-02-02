@@ -11,7 +11,7 @@ export default function Hero() {
           Generate{" "}
           <span className="text-emerald-500 underline decoration-wavy typer">
             <span className="md:hidden">
-              <br />
+              <br /> <span className="invisible">.</span>
             </span>
             <Typewriter
               words={["Meta Tags", "Beautiful Cards", "Top Rank"]}
@@ -19,7 +19,7 @@ export default function Hero() {
               typeSpeed={60}
               deleteSpeed={30}
               delaySpeed={1200}
-            />
+            />{" "}
           </span>
           <div className=" text-slate-50 pl-4 mt-14">
             <button className="transition rounded text-3xl px-4 py-2 bg-teal-400 text-gray-800 shadow-lg shadow-teal-800 hover:bg-teal-300 hover:-translate-y-1 hover:scale-110">

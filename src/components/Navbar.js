@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="px-5 py-3   text-2xl flex flex-row justify-between items-center fixed top-0 left-0 w-full backdrop-blur-md bg-transparent">
       <div className="font-medium">
         <Link className="no-underline " to="/">
-          webSearcher
+          Web Searcher
         </Link>
       </div>
       <div className=" hidden md:flex flex-row justify-between text-zinc-300">
