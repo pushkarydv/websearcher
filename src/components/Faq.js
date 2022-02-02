@@ -20,12 +20,12 @@ export default function Faq() {
               "Normal meta tags, og tags and twitter tags",
             ],
           ].map(([ques, ans]) => (
-            <>
+            <div key={ques}>
               <div className="ques text-lg font-medium capitalize text-slate-100 pt-6">
                 {ques}
               </div>
               <div className="text-slate-300 pt-1">{ans}</div>
-            </>
+            </div>
           ))}
         </div>
       </div>
