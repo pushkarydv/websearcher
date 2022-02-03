@@ -2,7 +2,7 @@ export default function Faq() {
   return (
     <>
       <div className="px-4 md:px-12 py-12 flex flex-col md:flex-row justify-center align-center">
-        <div className="basis-1/3 p-4 md:p-16 lg:p-24 text-3xl md:text-5xl text-neutral-300">
+        <div className="basis-1/3 p-4 md:p-16 lg:p-24 text-4xl md:text-5xl text-slate-200">
           Frequently Asked Questions
         </div>
         <div className="basis-2/3 p-4">
@@ -21,10 +21,10 @@ export default function Faq() {
             ],
           ].map(([ques, ans]) => (
             <div key={ques}>
-              <div className="ques text-lg font-medium capitalize text-slate-100 pt-6">
+              <div className="ques font-medium capitalize pt-6 text-2xl text-slate-100">
                 {ques}
               </div>
-              <div className="text-slate-300 pt-1">{ans}</div>
+              <div className="pt-2 text-xl text-slate-400">{ans}</div>
             </div>
           ))}
         </div>

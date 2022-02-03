@@ -2,10 +2,13 @@ import SocialLink from "./SocialLink";
 export default function Socials() {
   return (
     <>
-      <div className="px-4 md:px-12 py-12 flex flex-col md:flex-row justify-center align-center">
+      <div className="px-4 md:px-12 py-8 flex flex-col md:flex-row justify-center align-center">
         <div className="basis-2/3 p-4 md:p-16 lg:p-24 text-center">
           <div className="text-teal-300 text-5xl">Socials</div>
-          <br />
+          <div className="pt-4 pb-4 text-2xl text-slate-400">
+            Connect on Twitter, Instagram, and GitHub to get notification about
+            any new feature or get early access of some cool projects !
+          </div>
           <SocialLink to="https://instagram.com/pushkaryadav_">
             Instagram
           </SocialLink>

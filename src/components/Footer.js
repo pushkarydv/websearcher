@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="w-100 text-slate-400 text-center py-2 text-xl">
+      <div className="w-100 text-xl text-slate-300 text-center pt-12 py-2">
         &lt;/&gt; &amp; Crafted with 💛 by{" "}
         <a
           href="https://github.com/pushkarydv"
