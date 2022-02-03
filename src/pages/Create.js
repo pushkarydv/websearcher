@@ -24,7 +24,9 @@ export default function Create() {
           <div className="px-4 py-8 flex justify-center">
             <form className="w-full lg:max-w-4xl">
               <label className="block">
-                <span className="block text-sm">Website Title</span>
+                <span className="block text-lg text-slate-200">
+                  Website Title
+                </span>
                 <input
                   type="text"
                   placeholder="Name"
@@ -35,7 +37,9 @@ export default function Create() {
                 />
               </label>
               <label className="block pt-4">
-                <span className="block text-sm">Website URL</span>
+                <span className="block text-lg text-slate-200">
+                  Website URL
+                </span>
                 <input
                   type="text"
                   placeholder="https://yourwebsite.com"
@@ -46,7 +50,9 @@ export default function Create() {
                 />
               </label>
               <label className="block pt-4">
-                <span className="block text-sm">Description</span>
+                <span className="block text-lg text-slate-200">
+                  Description
+                </span>
                 <input
                   type="text"
                   placeholder="A small explanation of what your do. (suggested: 25 words)"
@@ -57,7 +63,7 @@ export default function Create() {
                 />
               </label>
               <label className="block pt-4">
-                <span className="block text-sm">Keywords</span>
+                <span className="block text-lg text-slate-200">Keywords</span>
                 <input
                   type="text"
                   placeholder="Keyword1, Keyword2, and more seprated by comma"
@@ -68,7 +74,7 @@ export default function Create() {
                 />
               </label>
               <label className="block pt-4">
-                <span className="block text-sm">Author</span>
+                <span className="block text-lg text-slate-200">Author</span>
                 <input
                   type="text"
                   placeholder="Author Name"
@@ -79,7 +85,9 @@ export default function Create() {
                 />
               </label>
               <label className="block pt-4">
-                <span className="block text-sm">Website Banner Image URL</span>
+                <span className="block text-lg text-slate-200">
+                  Website Banner Image URL
+                </span>
                 <input
                   type="text"
                   placeholder="https://yourwebsite.com/banner.png"
@@ -94,7 +102,7 @@ export default function Create() {
           <div className="text-center text-2xl py-3 text-slate-300">
             Completed form , And it's done... Scroll and Copy 😁
           </div>
-          <div className="p-2 m-2 mt-12 text-slate-50 bg-slate-800 rounded-lg w-full lg:max-w-4xl ml-auto mr-auto">
+          <div className="p-2 m-2 mt-12 text-slate-50 border-2 md:border-4 border-dashed  border-slate-600 rounded-lg w-full lg:max-w-4xl xl:max-w-5xl ml-auto mr-auto">
             <CopyTags
               name={webData.name}
               author={webData.author}
@@ -104,7 +112,7 @@ export default function Create() {
               keywords={webData.keywords}
             />
             <br />
-            <code>
+            <code className="text-lg md:text-xl">
               <Code
                 name={webData.name}
                 author={webData.author}
