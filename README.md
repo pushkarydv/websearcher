@@ -22,6 +22,9 @@
    <img src="https://raw.githubusercontent.com/pushkarydv/images/main/ws-page1.png">
    <img src="https://raw.githubusercontent.com/pushkarydv/images/main/ws-page2.png" >
 
+# PageSpeed Insights
+
+<img src="https://raw.githubusercontent.com/pushkarydv/images/main/ws-insights.png">
 
 # Tech Used
 
@@ -31,10 +34,6 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![tailwindcss](https://img.shields.io/badge/tailwindcss-%23563D7C.svg?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-
-# PageSpeed Insights
-
-<img src="https://raw.githubusercontent.com/pushkarydv/images/main/ws-insights.png">
 
 # Contribute
 
