@@ -1,10 +1,10 @@
 <div align="center">
  <h1> <img src="https://websearcher.vercel.app/favicon-32x32.png" width="22px"> Web Searcher </h1>
- <img src="https://img.shields.io/github/package-json/v/pushkarydv/websearcher?color=g&label=Web%20Searcher&style=plastic">
+ <img src="https://img.shields.io/github/package-json/v/pushkarydv/websearcher?color=g&label=Web%20Searcher">
  <img src="https://img.shields.io/npm/v/npm?style=plastic">
- <img src="https://img.shields.io/website?style=plastic&url=https%3A%2F%2Fwebsearcher.vercel.app"> 
- <img src="https://img.shields.io/github/deployments/pushkarydv/websearcher/production?label=Production&style=plastic">
- <img src="https://img.shields.io/github/languages/code-size/pushkarydv/websearcher?logo=github&style=plastic">
+ <img src="https://img.shields.io/website?url=https%3A%2F%2Fwebsearcher.vercel.app"> 
+ <img src="https://img.shields.io/github/deployments/pushkarydv/websearcher/production?label=Production">
+ <img src="https://img.shields.io/github/languages/code-size/pushkarydv/websearcher?logo=github">
 </div>
 
 # About
