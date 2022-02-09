@@ -6,12 +6,9 @@ export default function Socials() {
         <div className="basis-2/3 p-4 md:p-16 lg:p-24 text-center">
           <div className="text-teal-300 text-5xl">Socials</div>
           <div className="pt-4 pb-4 text-2xl text-slate-400">
-            Connect on Twitter, Instagram, and GitHub to get notification about
-            any new feature or get early access of some cool projects !
+            Connect on Twitter and GitHub to get notification about any new
+            feature or get early access of some cool projects !
           </div>
-          <SocialLink to="https://instagram.com/pushkaryadav_">
-            Instagram
-          </SocialLink>
           <SocialLink to="https://twitter.com/pushkaryadav_">
             Twitter
           </SocialLink>
