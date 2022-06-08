@@ -6,13 +6,15 @@ import Home from "./pages/Home";
 export default function App() {
   return (
     <>
-      <Broadcast />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/create" element={<Create />} />
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </BrowserRouter>
+      <div className="min-h-screen overflow-x-hidden bg-slate-900 text-white ">
+        <Broadcast />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/create" element={<Create />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   );
 }

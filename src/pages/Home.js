@@ -9,15 +9,13 @@ import OpenSource from "../components/OpenSource";
 export default function Home() {
   return (
     <>
-      <div className="min-h-screen overflow-x-hidden bg-zinc-800 text-white ">
-        <Navbar />
-        <Hero />
-        <Features />
-        <Socials />
-        <OpenSource />
-        <Faq />
-        <Footer />
-      </div>
+      <Navbar />
+      <Hero />
+      <Features />
+      <Socials />
+      <OpenSource />
+      <Faq />
+      <Footer />
     </>
   );
 }
