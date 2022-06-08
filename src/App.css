@@ -3,15 +3,15 @@
   color: #fff;
 }
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 1rem;
 }
 ::-webkit-scrollbar-track {
-  background: rgb(39 39 42);
+  background: rgb(15 23 42);
 }
 ::-webkit-scrollbar-thumb {
-  background: teal;
+  background: rgb(8, 195, 195);
   transition: 0.3s ease;
-  border: 3px solid rgb(39 39 42);
+  border: 0.3rem solid rgb(15 23 42);
   border-radius: 100vh;
 }
 ::-webkit-scrollbar-thumb:hover {
