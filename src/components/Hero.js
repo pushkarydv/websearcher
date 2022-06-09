@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <>
       <div className="flex flex-col md:flex-row items-center py-6 lg:py-12">
-        <div className="basis-2/3 md:pl-12 py-6  text-5xl text-slate-300 xl:text-6xl 2xl:text-7xl xl:pb-14 xl:pt-24 pb-16">
+        <div className="basis-2/3 pl-6 md:pl-12 py-6  text-5xl text-slate-300 xl:text-6xl 2xl:text-7xl xl:pb-14 xl:pt-24 pb-16">
           <div className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold">
             Let&apos;s rank your app
           </div>
