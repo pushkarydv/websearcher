@@ -22,9 +22,7 @@ export default function Code({
       <G>"English"</G>
       /&gt; <br /> &lt;
       <R>meta</R> <O>name</O>=<G>"author"</G> <O>content</O>=<G>"{author}"</G>{" "}
-      /&gt; <br /> &lt;
-      <R>meta</R> <O>name</O>=<G>"viewport"</G> <O>content</O>
-      <G>="width=device-width,initial-scale=1"</G> /&gt; <br />
+      /&gt; <br />
       &lt;<R>meta</R> <O>property</O>=<G>"og:type"</G> <O>content</O>=
       <G>"website"</G>
       /&gt; <br /> &lt;
