@@ -1,34 +1,34 @@
 import axios from "axios";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Broadcast() {
-  // const [isVisible, setIsVisible] = useState(false);
-  // const [title, setTitle] = useState("");
-  // const [link, setLink] = useState("");
+  const [apiData, setApiData] = useState(null);
   useEffect(() => {
-    axios.get("https://pushkaryadav.in/api/broadcast").then((res) => {
-      console.log(res);
-      // if (res.data.title) {
-      //   setTitle(res.data.title);
-      //   setLink(res.data.link);
-      //   setIsVisible(true);
-      //   setTimeout(() => {
-      //     setIsVisible(false);
-      //   }, 15000);
-      // }
-    });
+    axios
+      .get("https://broadcasts-pushkaryadav.netlify.app/api/broadcast")
+      .then((res) => {
+        if (res.data.title) {
+          setApiData({
+            text: res.data.title,
+            link: res.data.link,
+          });
+          setTimeout(() => {
+            setApiData(null);
+          }, 10000);
+        }
+      });
   }, []);
   return (
     <>
-      {/* {isVisible && (
-        <div className="h-8">
-          <div className="flex justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 absolute w-full h-8 top-0 left-0 text-white text-xs sm:text-sm md:text-base ease-in-out transition-all">
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              {title}
+      {apiData && (
+        <div className="transition-all h-8">
+          <div className="transition-all ease-in-out flex justify-center items-center bg-gradient-to-r from-fuchsia-500 via-purple-500 to-violet-500 absolute w-full h-8 top-0 left-0 text-white text-xs sm:text-sm md:text-base hover:saturate-150">
+            <a href={apiData.link} target="_blank" rel="noopener noreferrer">
+              {apiData.text}
             </a>
           </div>
         </div>
-      )} */}
+      )}
     </>
   );
 }

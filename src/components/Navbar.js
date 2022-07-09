@@ -2,7 +2,7 @@ import { NavLink, Link } from "react-router-dom";
 import "../App.css";
 export default function Navbar() {
   return (
-    <nav className="px-5 py-3   text-2xl flex flex-row justify-between items-center fixed top-0 left-0 w-full backdrop-blur-md bg-neutral-800 bg-opacity-70 z-50 ">
+    <nav className="px-5 py-3 text-2xl flex flex-row justify-between items-center relative backdrop-blur-md bg-neutral-800 bg-opacity-70 z-50 ">
       <div className="font-medium">
         <Link className="no-underline " to="/">
           Web Searcher
