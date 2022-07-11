@@ -19,8 +19,8 @@
 
 # Screensorts
 
-   <img src="https://raw.githubusercontent.com/pushkarydv/images/main/ws-page1.png">
-   <img src="https://raw.githubusercontent.com/pushkarydv/images/main/ws-page2.png" >
+![21ad1e41-1093-4e3e-8c7b-c383636a4260](https://user-images.githubusercontent.com/96358784/178250433-b8dc4da1-c0ab-4ef4-a09e-4430037b79fc.png)
+![4b2ef5c9-a1b6-480c-94e5-85b0f6093d55](https://user-images.githubusercontent.com/96358784/178250443-38c671b3-ff42-4879-a7b5-556da2732a90.png)
 
 # PageSpeed Insights
 
