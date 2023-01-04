@@ -6,6 +6,8 @@ export default function Footer() {
         <a
           href="https://pushkaryadav.in"
           className="no-underline text-teal-300"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           Pushkar Yadav
         </a>
