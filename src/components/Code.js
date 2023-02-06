@@ -44,7 +44,7 @@ export default function Code({
       <R>meta</R> <O>property</O>=<G>"twitter:description"</G> <O>content</O>=
       <G>"{description}"</G> /&gt;
       <br /> &lt;<R>meta</R> <O>property</O>=<G>"twitter:image"</G>{" "}
-      <O>content</O>=<G>"https://websearcher.vercel.app/banner.png"</G> /&gt;
+      <O>content</O>=<G>"{banner}"</G> /&gt;
     </>
   );
 }
